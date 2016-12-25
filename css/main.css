@@ -1,56 +1,97 @@
-<!DOCTYPE html>
+/*body {
+	font-family: Veranda, Geneva, sans-serif;
+}*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float:left;
+}
+li a {
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+li a:hover {
+	background-color: #111;
+}
+#banner {
+	margin: 0 auto;
+	padding: 2.5em 0 0 0;
+}
+#banner h1 {font-size: 3.571em; line-height: .6;}
+body {
+	color: #000204;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;/*Helvetica, Arial, Verdana, sans-serif;*/
+	font-size: 77.5%; /* base font = 14px*/
+	font-weight: 300;
+	line-height: 1.429; /* 1.429*current font size = 20px */
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.body {clear: both; margin: 0 auto; width: 700px;}
 
-<html lang="en">
-	<head>
-		<link rel="stylesheet" type="text/css" href="personal_web_home2.css">
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<meta charset="utf-8">
-	<title>Rebecca Murray</title>
-	</head>
+#left {
+	width:250px;
+	float:left;
+	padding-left:20px;
 
-	<body bgcolor=#F1F1FF>
-		<!-- header -->
-		<header id="banner" class="body">
-		<h1>Rebecca Murray</h1>
-			<!-- nav bar -->
-			<nav><ul>
-			<!--<li><a href="index.html">Home</a></li> -->
-			<li><a href="#">About</a></li>
-	        <li><a href="RebeccaMurray_Resume.pdf">Resume</a></li>
-			<!-- <li><a href="classes.html">Classes</a></li> -->
-			<li><a href="writing.html">Coursework</a></li>
-			</ul></nav>
-		</header>
-		<div id="wrapper">
-			<div id="left">
-				<p style="text-align:center;">
-				<img src = "swe10.jpg" alt = "Me" style = "width:250px; border-radius:10px"> 
-				</p>
-			</div>
-			<div id="right">
-				<hgroup>
-					<h2>Contact</h2>
-				</hgroup>
-				<p><strong>Email: </strong>rmm2242@columbia.edu<br>
-				<strong>Phone: </strong>(203) 524-5616</p>
+}
 
-				<p><strong>Rebecca M. Murray</strong><br>
-					Columbia University<br>
-					7195 Lerner Hall<br>
-					2920 Broadway<br>
-					New York, NY 10027</p>
-				<hgroup>
-					<h2>About</h2>
-				</hgroup>
-				<p>I am currently an undergraduate student in electrical engineering at Columbia, concentrating in photonics and solid-state devices.
+#right {
+	margin-left: 250px;
+	padding-left: 40px;
+	padding-right: 20px;
 
-			</div>
-		</div>
-		
+}
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="app.js"></script>
+#wrapper {
+	width:660px;
+	overflow:hidden;
+	background-color: #FFF;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-top: 40px;
+}
+#featured h2 {
+	color: #0000CC;
+	font-size: 1.714em;
+/*	margin-bottom: 0.5em;
+*/	font-weight: bold;
+}
+#links {
+	padding-top: 25px;
+	margin:auto;
+	width:450px;
 
-	</body>
+}
 
-</html>
+.button {
+	background-color: #4CAF50;
+	margin:auto;
+	border: none;
+	color:white;
+	width:125px;
+	padding: 15px 32px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.leftbutton {
+	float:left;
+	width:50%;
+}
+
+.rightbutton {
+	margin-left: 50%;
+}
