@@ -1,43 +1,56 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+<!DOCTYPE html>
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="personal_web_home2.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+	<title>Rebecca Murray</title>
+	</head>
 
-ul.posts li {
-    list-style: none;
-}
+	<body bgcolor=#F1F1FF>
+		<!-- header -->
+		<header id="banner" class="body">
+		<h1>Rebecca Murray</h1>
+			<!-- nav bar -->
+			<nav><ul>
+			<!--<li><a href="index.html">Home</a></li> -->
+			<li><a href="#">About</a></li>
+	        <li><a href="RebeccaMurray_Resume.pdf">Resume</a></li>
+			<!-- <li><a href="classes.html">Classes</a></li> -->
+			<li><a href="writing.html">Coursework</a></li>
+			</ul></nav>
+		</header>
+		<div id="wrapper">
+			<div id="left">
+				<p style="text-align:center;">
+				<img src = "swe10.jpg" alt = "Me" style = "width:250px; border-radius:10px"> 
+				</p>
+			</div>
+			<div id="right">
+				<hgroup>
+					<h2>Contact</h2>
+				</hgroup>
+				<p><strong>Email: </strong>rmm2242@columbia.edu<br>
+				<strong>Phone: </strong>(203) 524-5616</p>
+
+				<p><strong>Rebecca M. Murray</strong><br>
+					Columbia University<br>
+					7195 Lerner Hall<br>
+					2920 Broadway<br>
+					New York, NY 10027</p>
+				<hgroup>
+					<h2>About</h2>
+				</hgroup>
+				<p>I am currently an undergraduate student in electrical engineering at Columbia, concentrating in photonics and solid-state devices.
+
+			</div>
+		</div>
+		
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="app.js"></script>
+
+	</body>
+
+</html>
