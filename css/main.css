@@ -62,17 +62,22 @@ body {
 	padding-right: 20px;
 
 }
+#year {
+	height:170px;
+}
 #fallcourse {
-	position: absolute;
-	width:250px;
+/*	position: absolute;
+*/	width:250px;
 	float:left;
 	padding-left:20px;
 	height:170px;
 }
 #springcourse {
-	margin-left: 250px;
-	padding-left: 40px;
-	padding-right: 20px;
+	position:absolute;
+	margin-left: 280px;
+	width:250px;
+	float:left;
+	padding-left: 20px;
 	height:170px;
 }
 
