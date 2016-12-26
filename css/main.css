@@ -62,9 +62,21 @@ body {
 	padding-right: 20px;
 
 }
-#year {
-	height:170px;
+#titlediv {
+	padding-left:20px; 
+	display:block;
+	margin-bottom: -20px;
 }
+#year {
+/*	position:relative;
+*/	height:170px;
+/*	vertical-align: top;
+*/}
+/*.year2 {
+	position:relative;
+	height:170px;
+	vertical-align: top;
+}*/
 #fallcourse {
 /*	position: absolute;
 */	width:250px;
