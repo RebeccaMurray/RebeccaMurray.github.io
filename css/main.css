@@ -65,18 +65,23 @@ body {
 #titlediv {
 	padding-left:20px; 
 	display:block;
-	margin-bottom: -20px;
+/*	margin-bottom: -20px;
+*/
+	margin:0;
+	padding: 0;
 }
-#year {
-/*	position:relative;
-*/	height:170px;
-/*	vertical-align: top;
-*/}
-/*.year2 {
-	position:relative;
-	height:170px;
-	vertical-align: top;
-}*/
+#titlediv h2 {
+	margin: 20px 0 0 20px;
+	font-size: 1.714em;
+	font-weight: bold;
+}
+#titlediv h3 {
+	margin: 0 0 0 20px;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1.15em;
+}
+
 #fallcourse {
 /*	position: absolute;
 */	width:250px;
@@ -104,12 +109,7 @@ body {
 	-webkit-border-radius: 10px;
 	margin-top: 40px;
 }
-#wrapper h2 {
-	font-size: 1.714em;
-/*	margin-bottom: 0.5em;
-*/	font-weight: bold;
 
-}
 #links {
 	padding-top: 25px;
 	margin:auto;
@@ -117,22 +117,3 @@ body {
 
 }
 
-.button {
-	background-color: #4CAF50;
-	margin:auto;
-	border: none;
-	color:white;
-	width:125px;
-	padding: 15px 32px;
-	font-size: 16px;
-	text-align: center;
-}
-
-.leftbutton {
-	float:left;
-	width:50%;
-}
-
-.rightbutton {
-	margin-left: 50%;
-}
