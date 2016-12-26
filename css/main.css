@@ -52,14 +52,17 @@ body {
 
 }
 #fallcourse {
+	position: absolute;
 	width:250px;
 	float:left;
 	padding-left:20px;
+	height:170px;
 }
 #springcourse {
 	margin-left: 250px;
 	padding-left: 40px;
 	padding-right: 20px;
+	height:170px;
 }
 
 #wrapper {
